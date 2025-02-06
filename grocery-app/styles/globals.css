@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: rgb(245, 220, 174);
+  color: black;
+  margin: 0;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 60px;
+  background-color: black;
+  padding: 0 20px;
+  
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color:rgb(15, 3, 59); 
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(15, 3, 59); 
+}
+
+h1 {
+  color: rgb(22, 6, 41);
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+p{
+  color: #091341;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 700px;
+  text-align: center;
+  text-shadow: rgb(10, 15, 62);
+}
+
+button{
+  background: linear-gradient(90deg, rgba(72, 204, 87, 1) 0%, rgba(20, 184, 166, 1) 100%);
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  outline: none;
+  
+}
+button:hover {
+  background: linear-gradient(90deg, rgba(72, 204, 87, 1) 0%, rgba(20, 184, 166, 1) 100%);
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
